@@ -1,0 +1,52 @@
+React
+-------------------
+Library, which is used for implementing frontend projects.
+its light wight then the frameworks because when we use frameworks its provides its so many inbuit features inside the same.
+
+So when we use library as per our usage we will install the other packages and implementing the same.
+
+How to create react project?
+
+npx create-react-app appname
+
+(npx is the command coming by default in your system when you install node)
+
+JSX: javascript extentions (we can include HTML code inside js files directly)
+
+const [name,setName]=useState('initial value');
+
+when the state got updated the the value directly reflected in your Page whithout reload.
+
+  useEffect(()=>{
+        getData();
+    })
+//execute on every render
+  useEffect(()=>{
+        getData();
+    },[])
+//execute only first render
+  useEffect(()=>{
+        getData();
+    },[test])
+//whenever the test state will get updated the useEffect will executed.
+
+const [name,setName]= useState();
+
+setName(''); //
+
+//state is readOnly
+name="sonam"
+//it is creating an another instance of that variable
+
+
+
+
+
+
+
+
+
+
+
+
+
