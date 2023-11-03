@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
+import FetchData from './components/FetchData';
+import Hello from './components/Hello';
+import Variable from './components/Variable';
+import Header from './components/header';
+import List from './components/useCase/list';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>React Application</h1>
+      <List />
+      {/* <Hello name="sonam soni" message="Welcome" />
+      <Hello name="Ajit Kumar" message="goog Evening" /> */}
+      {/* <List /> */}
     </div>
   );
 }
